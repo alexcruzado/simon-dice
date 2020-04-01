@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{        
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+}
+
+.cuadrante__superior_derecho{
+    width: 200px;
+    height: 200px;
+    background-color: #00abe4b2;
+    border-top-right-radius: 200px;
+}
+
+.cuadrante__inferior_derecho{
+    width: 200px;
+    height: 200px;
+    background-color: #89ac76;
+    border-bottom-right-radius: 200px;
+}
+
+.cuadrante__inferior_izquierdo{
+    width: 200px;
+    height: 200px;
+    background-color: #ed1c24;
+    border-bottom-left-radius: 200px;
+}
+
+.cuadrante__superior_izquierdo{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff00;
+    border-top-left-radius: 200px;    
+}
+
+.div__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+}
+
+/*Clase para ocultar el boton*/
+.hide{
+    display: none;
+}
+
+button{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*Clases para "iluminar"*/
+
+
+.cuadrante__superior_derecho.light{
+    width: 200px;
+    height: 200px;
+    background-color: #00abe480;
+    border-top-right-radius: 200px;
+}
+
+.cuadrante__inferior_derecho.light{
+    width: 200px;
+    height: 200px;
+    background-color: #89ac7694;
+    border-bottom-right-radius: 200px;
+}
+
+.cuadrante__inferior_izquierdo.light{
+    width: 200px;
+    height: 200px;
+    background-color: #ed1c237c;
+    border-bottom-left-radius: 200px;
+}
+
+.cuadrante__superior_izquierdo.light{
+    width: 200px;
+    height: 200px;
+    background-color: #eeee2ea1;
+    border-top-left-radius: 200px;
+}
